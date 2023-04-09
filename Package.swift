@@ -10,7 +10,7 @@ let package = Package(
     dependencies: [],
     targets: [
         .target(name: "TreeSitterMarkdown",
-                path: "tree-sitter-markdown",
+                path: ".",
                 exclude: [
                     "corpus",
                     "grammar.js",
