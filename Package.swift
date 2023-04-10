@@ -17,7 +17,7 @@ let package = Package(
         
 
         // Original tree-sitter-markdown exported from https://github.com/ikatyang/tree-sitter-markdown/
-        .target(name: "TreeSitterMarkdown", path: "Sources/tree-sitter-markdown/src",
+        .target(name: "TreeSitterMarkdown", path: "src",
                 sources: [ "parser.c",
                            "scanner.cc",
                            "tree_sitter_markdown/block_context.cc",
