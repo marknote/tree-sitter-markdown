@@ -12,20 +12,20 @@
 #endif
 
 // tree-sitter does not support multiple files for external scanner
-#include "./tree_sitter_markdown/block_context.cc"
-#include "./tree_sitter_markdown/block_delimiter.cc"
-#include "./tree_sitter_markdown/block_scan.cc"
-#include "./tree_sitter_markdown/block_scan_util.generated.cc"
-#include "./tree_sitter_markdown/inline_delimiter.cc"
-#include "./tree_sitter_markdown/inline_context.cc"
-#include "./tree_sitter_markdown/inline_scan.cc"
-#include "./tree_sitter_markdown/inline_scan_util.generated.cc"
-#include "./tree_sitter_markdown/lexer.cc"
-#include "./tree_sitter_markdown/parse_table.cc"
-#include "./tree_sitter_markdown/predicate.cc"
-#include "./tree_sitter_markdown/predicate_util.generated.cc"
-#include "./tree_sitter_markdown/shared_type.cc"
-#include "./tree_sitter_markdown/util.cc"
+#include "./tree_sitter_markdown/block_context.h"
+#include "./tree_sitter_markdown/block_delimiter.h"
+#include "./tree_sitter_markdown/block_scan.h"
+#include "./tree_sitter_markdown/block_scan_util.generated.h"
+#include "./tree_sitter_markdown/inline_delimiter.h"
+#include "./tree_sitter_markdown/inline_context.h"
+#include "./tree_sitter_markdown/inline_scan.h"
+#include "./tree_sitter_markdown/inline_scan_util.generated.h"
+#include "./tree_sitter_markdown/lexer.h"
+#include "./tree_sitter_markdown/parse_table.h"
+#include "./tree_sitter_markdown/predicate.h"
+#include "./tree_sitter_markdown/predicate_util.generated.h"
+#include "./tree_sitter_markdown/shared_type.h"
+#include "./tree_sitter_markdown/util.h"
 
 namespace {
 
