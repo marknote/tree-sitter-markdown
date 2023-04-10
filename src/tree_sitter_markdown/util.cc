@@ -34,7 +34,7 @@ bool adv_blk_htm_end(Lexer &lxr) {
 }
 
 bool vld_sym(const Symbol sym, const BlockContextStack &blk_ctx_stk) {
-  TREE_SITTER_MARKDOWN_ASSERT(!blk_ctx_stk.empty());
+  assert(!blk_ctx_stk.empty());
   return vld_sym(sym, blk_ctx_stk.back().pst());
 }
 bool vld_sym(const Symbol sym, const BlockContextStack &blk_ctx_stk, const InlineContextStack &inl_ctx_stk) {
